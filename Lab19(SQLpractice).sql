@@ -1,0 +1,22 @@
+--SELECT*FROM Customers;
+--SELECT Country FROM Customers;
+--SELECT DISTINCT Country FROM Customers;
+--SELECT * FROM Customers WHERE CustomerID LIKE 'Bl%';
+--SELECT TOP 100 * FROM Customers;
+--SELECT * FROM Customers WHERE PostalCode IN ('1010', '3012', '12209', '05023');
+--SELECT * FROM Customers WHERE Region IS NOT NULL;
+--SELECT * FROM Customers ORDER BY Country, City;
+--INSERT INTO Customers (CustomerID, CompanyName,ContactName,ContactTitle,Address, City,Region,PostalCode,Country,Phone,Fax) VALUES ('999','1234','1234','1234','1234','1234','1234','1234','1234','1234', '1234');
+--UPDATE Customers SET Region = 'EuroZone' WHERE Country = 'France';
+
+--DELETE FROM [Order Details] WHERE Quantity = 1;
+--SELECT AVG(Quantity) FROM [Order Details]
+--SELECT MIN(Quantity) FROM [Order Details]
+--SELECT MAX(Quantity) FROM [Order Details]
+--SELECT*FROM [Order Details] WHERE OrderID='10290';
+--SELECT * FROM Customers INNER JOIN Orders ON Orders.CustomerID = Customers.CustomerID;
+--SELECT * FROM Customers LEFT JOIN Orders ON Orders.CustomerID = Customers.CustomerID;
+--SELECT * FROM Customers RIGHT JOIN Orders ON Orders.CustomerID = Customers.CustomerID;
+--SELECT FirstName FROM Employees WHERE ReportsTo IS NULL;
+--SELECT FirstNAme FROM Employees Where ReportsTo = 2;
+
